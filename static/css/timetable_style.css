@@ -1,0 +1,67 @@
+.table_box{
+    overflow-x: scroll;
+}
+
+.table_in{
+    display: flex;
+    flex-direction: row;
+}
+
+.table_in tr{
+    margin-top: 40px;
+    width: 300px;
+}
+.table_in td{
+    display: block;
+    width: 90%;
+    height: 25px;
+    margin: 0 auto;
+    padding: 0;
+    border-spacing: 0px;
+    font-size: 14px;
+    text-align: start;
+    outline: #59C3E1 solid 1px;
+    background: #EBF6FB;
+}
+
+.tt_fixed{
+    position: sticky;
+    top: 0;
+    color: #fff;
+    background: #333;
+}
+
+.event_tt{
+    background:#D8C8AE!important;
+}
+.free_tt{
+    visibility: hidden!important;
+}
+
+.tt_10min{
+    height: 25px!important;
+}
+.tt_20min{
+    height: 50px!important;
+}
+.tt_30min{
+    height: 75px!important;
+}
+.tt_40min{
+    height: 100px!important;
+}
+.tt_50min{
+    height: 125px!important;
+}
+.tt_60min{
+    height: 150px!important;
+}
+.tt_70min{
+    height: 175px!important;
+}
+.tt_80min{
+    height: 200px!important;
+}
+.tt_90min{
+    height: 225px!important;
+}
